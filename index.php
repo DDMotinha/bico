@@ -13,14 +13,14 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     
-    <title>Bico online</title>
+    <title>Bico Online</title>
 </head>
 <body>
-    <div class="container-xl navbar fixed-top navigation">
+    <nav class="container-xl navbar fixed-top navigation">
         <div class="col-3">
             <div class="col-3">
                 <a class="navbar-brand" href="/">
-                    <img src="./src/image/b-logo.png" alt="b-logo">
+                    <img src="./src/image/b-logo.png" alt="b-logo" class="b-logo">
                 </a>
             </div>
         </div>
@@ -43,6 +43,30 @@
                 <button onclick="" class="btn btn-outline-warning">Entre aqui!</button>
             </div>
         </div>
-    </div>
+    </nav>
+    <main class="container-md mt-5">
+        <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./src/image/b-1-carousel.png" class="d-block w-100" alt="b-1-carousel">
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/image/b-2-carousel" class="d-block w-100" alt="b-2-carousel">
+                </div>
+                <div class="carousel-item">
+                    <img src="./src/image/b-3-carousel" class="d-block w-100" alt="b-3-carousel">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+    </main>
 </body>
 </html>

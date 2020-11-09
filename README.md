@@ -1,2 +1,2 @@
-# Bico
-Esse é um produto voltado para a procura de trabalho informal
+# bico
+É o meu projeto e produto
