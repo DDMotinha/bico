@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .navigation {
     border-bottom: 2px solid #ff8d00;
 }
@@ -5,5 +6,19 @@
     border-bottom: 2px solid #000000;
 }
 .b-logo {
-    width: auto;
+    width: 100px;
+    height: 35px;
+}
+.b-banner {
+    width: 200px;
+    height: 200px;
+}
+.pi {
+    padding-bottom: 190px;
+}
+.bg-carousel {
+    background-color: #ff8d00;
+}
+.border-carousel {
+    color: #ff8d00;
 }
