@@ -44,7 +44,7 @@
             </div>
         </div><!--Fecha Clique de login-->
     </nav><!-- Fecha barra de navegação -->
-    <main class="container-fluid mt-5 bg-warning">
+    <main class="container-fluid mt-5 bg-warning m-auto">
         <div id="carouselExampleFade" class="carousel slide container-lg border-warning rounded-bottom rounded-lg p-1 bg-light shadow-lg border mb-5 rounded" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -66,10 +66,11 @@
                 <span class="sr-only">Próximo</span>
             </a>
         </div><!-- Fecha Carousel -->
-        <div class="row container-xl bg-light text-center rounded mx-auto">
+        <div class="row container-xl bg-light text-center rounded mx-auto bg-white navbar">
             <div class="col">
                 <div class="text-center">
-
+                    <input type="text" name="" id="">
+                    <button>PESQUISE</button>
                 </div>
             </div>
             <div class="col">
