@@ -43,9 +43,9 @@
                 <button onclick="" class="btn btn-outline-success">Entre aqui!</button>
             </div>
         </div><!--Fecha Clique de login-->
-    </nav>
+    </nav><!-- Fecha barra de navegação -->
     <main class="container-fluid mt-5 bg-warning">
-        <div id="carouselExampleFade" class="carousel slide container-lg border-light rounded-bottom rounded-lg p-1 bg-light shadow-lg border mb-5 rounded" data-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide container-lg border-warning rounded-bottom rounded-lg p-1 bg-light shadow-lg border mb-5 rounded" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./src/image/b-1-carousel.png" class="d-block w-100" alt="b-1-carousel">
@@ -66,15 +66,37 @@
                 <span class="sr-only">Próximo</span>
             </a>
         </div><!-- Fecha Carousel -->
-        <div class="row container-fluid bg-light">
+        <div class="row container-xl bg-light text-center rounded mx-auto">
             <div class="col">
-                asdas
+                <div class="text-center">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="text-center">
+
+                </div>
             </div>
         </div>
         <div class="container-fluid bg-warning pt-5 pb-3">
             <div class="row mx-md-n5">
-                <div class="col px-md-5 shadow text-center">
-                    <div class="border border-warning bg-light rounded pb-5">
+                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
+                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
                         <img src="./src/image/b-1-banner.svg" alt="b-1-banner" srcset="" id="b-1-banner" class="mb-3 b-banner">
                         <label for="b-1-banner">
                             <h6>
@@ -83,8 +105,8 @@
                         </label>
                     </div>
                 </div>
-                <div class="col px-md-5 shadow text-center">
-                    <div class="border border-warning bg-light rounded pb-5">
+                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
+                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
                         <img src="./src/image/b-2-banner.svg" alt="b-2-banner" srcset="" id="b-2-banner" class="mb-3 b-banner">
                         <label for="b-2-banner">
                             <h6>
@@ -93,8 +115,8 @@
                         </label>
                     </div>
                 </div>
-                <div class="col px-md-5 shadow text-center">
-                    <div class="border border-warning bg-light rounded pb-5">
+                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
+                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
                         <img src="./src/image/b-3-banner.svg" alt="b-3-banner" srcset="" id="b-3-banner" class="mb-3 b-banner">
                         <label for="b-3-banner">
                             <h6>
@@ -103,8 +125,8 @@
                         </label>
                     </div>
                 </div>
-                <div class="col px-md-5 shadow text-center">
-                    <div class="border border-warning bg-light rounded pb-5">
+                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
+                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
                         <img src="./src/image/b-4-banner.svg" alt="b-4-banner" srcset="" id="b-4-banner" class="mb-3 b-banner">
                         <label for="b-4-banner">
                             <h6>
