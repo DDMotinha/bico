@@ -16,7 +16,7 @@
     <title>Bico Online</title>
 </head>
 <body>
-    <nav class="container-fluid navbar fixed-top navigation bg-light">
+    <nav class="container-fluid navbar fixed-top navigation bg-light border border-warning rounded-bottom rounded border-top-0">
         <div class="col-3">
             <div class="col-3">
                 <a class="navbar-brand" href="/">
@@ -45,7 +45,7 @@
         </div><!--Fecha Clique de login-->
     </nav><!-- Fecha barra de navegação -->
     <main class="container-fluid mt-5 bg-warning m-auto">
-        <div id="carouselExampleFade" class="carousel slide container-lg border-warning rounded-bottom rounded-lg p-1 bg-light shadow-lg border mb-5 rounded" data-ride="carousel">
+        <div id="carouselExampleFade" class=" shadow-sm carousel slide container-lg border-warning rounded-bottom rounded-lg p-1 bg-light border mb-5 rounded" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./src/image/b-1-carousel.png" class="d-block w-100" alt="b-1-carousel">
@@ -66,11 +66,15 @@
                 <span class="sr-only">Próximo</span>
             </a>
         </div><!-- Fecha Carousel -->
-        <div class="row container-xl bg-light text-center rounded mx-auto bg-white navbar">
-            <div class="col">
-                <div class="text-center">
-                    <input type="text" name="" id="">
-                    <button>PESQUISE</button>
+        <div class="row container-xl bg-light text-center rounded mx-auto bg-white rounded-bottom navbar border border-info">
+            <div class="row">
+                <div class="text-center row">
+                    <div class="input-group mb-3 col">
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-primary">Procurar bicos</button>
+                    </div>
                 </div>
             </div>
             <div class="col">
@@ -96,8 +100,8 @@
         </div>
         <div class="container-fluid bg-warning pt-5 pb-3">
             <div class="row mx-md-n5">
-                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
-                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
+                <div class="col px-md-5 mb-5 text-center">
+                    <div class="border border-info bg-light rounded rounded-bottom pb-5">
                         <img src="./src/image/b-1-banner.svg" alt="b-1-banner" srcset="" id="b-1-banner" class="mb-3 b-banner">
                         <label for="b-1-banner">
                             <h6>
@@ -106,8 +110,8 @@
                         </label>
                     </div>
                 </div>
-                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
-                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
+                <div class="col px-md-5 mb-5 text-center">
+                    <div class="border border-info bg-light rounded rounded-bottom pb-5">
                         <img src="./src/image/b-2-banner.svg" alt="b-2-banner" srcset="" id="b-2-banner" class="mb-3 b-banner">
                         <label for="b-2-banner">
                             <h6>
@@ -116,8 +120,8 @@
                         </label>
                     </div>
                 </div>
-                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
-                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
+                <div class="col px-md-5 mb-5 text-center">
+                    <div class="border border-info bg-light rounded rounded-bottom pb-5">
                         <img src="./src/image/b-3-banner.svg" alt="b-3-banner" srcset="" id="b-3-banner" class="mb-3 b-banner">
                         <label for="b-3-banner">
                             <h6>
@@ -126,8 +130,8 @@
                         </label>
                     </div>
                 </div>
-                <div class="col px-md-5 shadow-sm p-2 mb-5 text-center">
-                    <div class="border border-warning bg-light rounded rounded-lg pb-5">
+                <div class="col px-md-5 mb-5 text-center">
+                    <div class="border border-info bg-light rounded rounded-bottom pb-5">
                         <img src="./src/image/b-4-banner.svg" alt="b-4-banner" srcset="" id="b-4-banner" class="mb-3 b-banner">
                         <label for="b-4-banner">
                             <h6>
@@ -138,6 +142,6 @@
                 </div>
             </div>
         </div><!-- Fecha Banner de engajamento -->
-    </main>
+    </main><!-- Fecha o main -->
 </body>
 </html>

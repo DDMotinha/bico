@@ -1,17 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-.navigation {
-    border-bottom: 2px solid #ff8d00;
-}
+
 .logo-navigation {
     border-bottom: 2px solid #000000;
 }
 .b-logo {
-    width: 100px;
-    height: 35px;
+    max-width: 100px;
+    min-width: 50px;
 }
 .b-banner {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 .pi {
     padding-bottom: 190px;
