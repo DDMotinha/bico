@@ -23,7 +23,8 @@
     width: 100%
 }
 .p-bn-img{
-    width: 80%;
+    min-width: 75px;
+    width: 80%
 }
 .p-bn-footer {
     color: #06e4fc;
@@ -50,7 +51,4 @@
 }
 .p-bn-footer-text{
     width: 10%;
-}
-.p-bn-width{
-    width: 50px;
 }

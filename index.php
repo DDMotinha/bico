@@ -25,7 +25,7 @@
     <nav class="container-fluid navbar fixed-top navigation bg-light border border-warning rounded-bottom rounded border-top-0"><!--Abre nav-->
         
         <div class="col-3"><!--Abre B-Logo-->
-            <div class="col-3">
+            <div class="col-3 p-bn-icon">
                 <a class="navbar-brand" href="/">
                     <img src="./src/image/b-logo.png" alt="b-logo" class="b-logo">
                 </a>
@@ -35,7 +35,7 @@
         <div class="col-6 navbar"><!--Abre Elementos de pesquisa-->
 
             <div class="col-3"><!--Abre Vagas-->
-                <a href="/vagas" class="btn text-warning">Vagas</a>
+                <a href="/bicos" class="btn text-warning">Bicos</a>
             </div><!--Fecha Vagas-->
 
         </div><!--Fecha Elementos de pesquisa-->
@@ -49,19 +49,6 @@
     </nav><!-- Fecha barra de navegação -->
 
     <main class="container-fluid mt-5 bg-warning p-0">
-
-        <div class="row container bg-warning text-center rounded mx-auto bg-white p-5 m-5"><!--ABRE SISTEMA DE BUSCAS-->
-            <div class="row">
-                <div class="text-center row">
-                    <div class="input-group mb-3 col">
-                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="b-pesquisa">
-                    </div>
-                    <div class="col">
-                        <button class="btn btn-primary">Procurar bicos</button>
-                    </div>
-                </div>
-            </div>
-        </div> <!--Fecha o sistema de busca-->
 
         <div class="col bg-top text-center container-fluid bg-light rounded-lg"> <!---Abre os banners de engajamento-->
             <div class="row p-3 rounded">
@@ -93,7 +80,7 @@
                                     <div class="row-3">
                                         <div class="col p-text-tittle mb-3">Quer saber mais?</div>
                                         <button class="btn btn-outline-success" onclick="redirecionar()">
-                                            Clique aqui!
+                                            Ver vagas!
                                         </button>
                                     </div>
                                 </div>
@@ -105,6 +92,44 @@
         </div> <!---Fecha o banners de engajamento-->
 
     </main><!-- Fecha o main -->
+
+    <footer class="container-fluid bg-warning align-content-center"><!---FECHA O FOOTER-->
+        <div class="row">
+            <div class="col">
+                <img src="src/image/b-logo.png" class="p-bn-img">
+            </div>
+            <div class="col m-3">
+                <div class="row">
+                    <div class="col-3 p-bn-footer">
+                        <a href="https://www.facebook.com/">
+                            <img src="src/image/p-bn-facebook.png" alt="p-bn-facebook" class="p-bn-icon p-bn-width">
+                        </a>
+                    </div>
+                    <div class="col-3 p-bn-footer">
+                        <a href="https://www.instagram.com/">
+                            <img src="src/image/p-bn-instagram.png" alt="p-bn-instagram" class="p-bn-icon p-bn-width">
+                        </a>
+                    </div>
+                    <div class="col-3 p-bn-footer">
+                        <a href="https://twitter.com/">
+                            <img src="src/image/p-bn-twitter.png" alt="p-bn-twitter" class="p-bn-icon p-bn-width">
+                        </a>
+                    </div>
+                    <div class="col-3 p-bn-footer">
+                        <a href="https://www.youtube.com/">
+                            <img src="src/image/p-bn-youtube.png" alt="p-bn-youtube" class="p-bn-icon p-bn-width">
+                        </a>
+                    </div>
+                </div>
+                <div class="col mt-3 p-bn-text-footer text-center p-bn-footer-text">
+                    © 2020 Copyright: <strong>Bico LTDA</strong>
+                </div>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </footer><!---FECHA O FOOTER-->
 
 </body>
 </html>
