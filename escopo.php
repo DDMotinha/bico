@@ -28,7 +28,7 @@
         <div class="col"><!--Abre B-Logo-->
             <div class="col p-bn-icon">
                 <a class="navbar-brand" href="/">
-                    <img src="./src/image/b-logo.png" alt="b-logo" class="b-logo">
+                    <img src="../src/image/b-logo.png" alt="b-logo" class="b-logo">
                 </a>
             </div>
         </div><!--Fecha B-Logo-->
@@ -62,7 +62,7 @@
                         </div>
                         <div class="row p-text-body ">
                             <div class="col rounded-lg p-3 m-5 text-center rounded rounded-lg p-1 mb-5 shadow-sm">
-                                <img src="./src/image/b-1-banner.svg" alt="p-bn-promo" class="p-bn-banner col p-1 mb-5 ">
+                                <img src="../src/image/b-1-banner.svg" alt="p-bn-promo" class="p-bn-banner col p-1 mb-5 ">
                                 <div class="mb-5">
                                     <div class="row-3">
                                         Consquiste o <strong>seu</strong> mercado!
@@ -70,7 +70,7 @@
                                 </div>
                             </div>
                             <div class="col rounded-lg p-3 m-5 text-center rounded rounded-lg p-1 mb-5 shadow-sm">
-                                <img src="./src/image/b-4-banner.svg" alt="p-bn-promo" class="p-bn-banner col p-1 mb-5 ">
+                                <img src="../src/image/b-4-banner.svg" alt="p-bn-promo" class="p-bn-banner col p-1 mb-5 ">
                                 <div class="mb-5">
                                     <div class="row-3">
                                         Construa sua <strong>independência</strong>!
@@ -78,7 +78,7 @@
                                 </div>
                             </div>
                             <div class="col rounded-lg p-3 m-5 text-center rounded rounded-lg p-1 mb-5 shadow-sm">
-                                <img src="./src/image/b-3-banner.svg" alt="p-bn-promo" class="p-bn-banner col mb-5 ">
+                                <img src="../src/image/b-3-banner.svg" alt="p-bn-promo" class="p-bn-banner col mb-5 ">
                                 <div class="mb-5">
                                     <div class="row-3">
                                         <div class="col p-text-tittle mb-3">Quer saber mais?</div>
@@ -102,22 +102,22 @@
                 <div class="row">
                     <div class="col p-bn-footer">
                         <a href="https://www.facebook.com/">
-                            <img src="src/image/p-bn-facebook.png" alt="p-bn-facebook" class="p-bn-icon p-bn-width">
+                            <img src="../src/image/p-bn-facebook.png" alt="p-bn-facebook" class="p-bn-icon p-bn-width">
                         </a>
                     </div>
                     <div class="col p-bn-footer">
                         <a href="https://www.instagram.com/">
-                            <img src="src/image/p-bn-instagram.png" alt="p-bn-instagram" class="p-bn-icon p-bn-width">
+                            <img src="../src/image/p-bn-instagram.png" alt="p-bn-instagram" class="p-bn-icon p-bn-width">
                         </a>
                     </div>
                     <div class="col p-bn-footer">
                         <a href="https://twitter.com/">
-                            <img src="src/image/p-bn-twitter.png" alt="p-bn-twitter" class="p-bn-icon p-bn-width">
+                            <img src="../src/image/p-bn-twitter.png" alt="p-bn-twitter" class="p-bn-icon p-bn-width">
                         </a>
                     </div>
                     <div class="col p-bn-footer">
                         <a href="https://www.youtube.com/">
-                            <img src="src/image/p-bn-youtube.png" alt="p-bn-youtube" class="p-bn-icon p-bn-width">
+                            <img src="../src/image/p-bn-youtube.png" alt="p-bn-youtube" class="p-bn-icon p-bn-width">
                         </a>
                     </div>
                 </div>
