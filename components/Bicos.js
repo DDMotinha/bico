@@ -1,18 +1,15 @@
 import React, { useState } from 'react';
 import BuscadorDeVagas from '../controller/VagasFetch'
-import axios from  'axios';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function Bicos(){
-
-    const dados = []
-    
+function Bicos({dados}){
+    console.log(dados)
     return(
         <div className="text-center">
-            {dados.map((dados) => (
-                <div className="row m-2" key={dados.idDaVaga}>
+            {dados?.map(dados => (
+                <div className="row m-2" >
                     <div className="col">
                         <div className="rounded-lg rounded rounded-lg p-3 m-5 shadow-sm row ">
                             <div className="m-3 col text-justify">
@@ -44,11 +41,22 @@ function Bicos(){
     )
 }
 
-export async function getServerSideProps(){
+export async function getServerSideProps(context) {
 
-    const response = await axios.get('/api/vagas')
+    const res = await fetch('https://localhost:3030/api/vagas')
+    const data = await res.json()
+  
+    if (!data) {
+      return {
+        notFound: true,
+      }
+    }
+  
+    return {
+      props: {
+          dados,
+      },
+    }
+  }
 
-    return {dados: response.data}
-
-}
 export default Bicos;
