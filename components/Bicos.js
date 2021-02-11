@@ -5,8 +5,10 @@ import axios from  'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-function Bicos({dados}){
+function Bicos(){
 
+    const dados = []
+    
     return(
         <div className="text-center">
             {dados.map((dados) => (
