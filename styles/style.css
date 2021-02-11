@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.logo-navigation {
+    border-bottom: 2px solid #000000;
+}
+.b-logo {
+    max-width: 100px;
+    min-width: 50px;
+}
+.b-banner {
+    width: 150px;
+    height: 150px;
+}
+.pi {
+    padding-bottom: 190px;
+}
+.bg-carousel {
+    background-color: #ff8d00;
+}
+.border-carousel {
+    color: #ff8d00;
+}
+.b-auto {
+    margin: 0 auto;
+}
+.body {
+    background: linear-gradient(90deg,#204354, #00192d);
+}
+.p-img {
+    width: 100%;
+    min-width: 200px;
+}
+.p-img-logo {
+    max-width: 283px;
+    width: 25%;
+}
+.p-text-tittle {
+    font-family: 'Martel', serif;
+    font-size: 150%;
+    color: #486f75;
+}
+.p-text-body {
+    color: hsl(186, 88%, 26%);
+}
+.p-bn-topo{
+    width: 100%
+}
+.p-bn-img{
+    width: 80%;
+}
+.p-bn-footer {
+    color: #06e4fc;
+}
+.p-bn-card {
+    width: 20%
+}
+.p-bn-banner{
+    width: 50%;
+}
+.p-bn-icon{
+    width: 100px
+}
+.p-bn-text-footer{
+    color: #294c80
+}
+.p-bn-icon:hover{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.p-bn-banner:hover {
+    transform: scale(1.01);
+    transition-duration: 200ms;  
+}
+.p-bn-footer-text{
+    width: 10%;
+}
+.p-bn-width{
+    width: 50px;
+}
+.b-font-titulo{
+    font-size: 24px;
+}
+.footer-width{
+    width: 200px,
+}
+.b-font-subtitulo{
+    font-size: 12px;
+}
+.b-font-data{
+    font-size: 10px;
+    color: #a3a3a3
+}
+.b-width-wpp{
+    width: 20px,
+}
+.input-max{
+    max-width: 200px,
+}
