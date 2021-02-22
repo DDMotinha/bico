@@ -3,12 +3,29 @@ import BuscadorDeVagas from '../controller/VagasFetch'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+export async function getServerSideProps(context) {
 
-function Bicos({dados}){
-    console.log(dados)
+    const res = await fetch('https://localhost:3030/api/vagas')
+    const data = await res.json()
+  
+    if (!data) {
+      return {
+        notFound: true,
+      }
+    }
+  
+    return {
+      props: {
+          dados,
+      },
+    }
+  }
+
+function Bicos(props){
+
     return(
         <div className="text-center">
-            {dados?.map(dados => (
+            {props.map(dados => (
                 <div className="row m-2" >
                     <div className="col">
                         <div className="rounded-lg rounded rounded-lg p-3 m-5 shadow-sm row ">
@@ -40,23 +57,5 @@ function Bicos({dados}){
 
     )
 }
-
-export async function getServerSideProps(context) {
-
-    const res = await fetch('https://localhost:3030/api/vagas')
-    const data = await res.json()
-  
-    if (!data) {
-      return {
-        notFound: true,
-      }
-    }
-  
-    return {
-      props: {
-          dados,
-      },
-    }
-  }
 
 export default Bicos;
